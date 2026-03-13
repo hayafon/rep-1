@@ -1,0 +1,113 @@
+/* remove espaçamentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333333;
+}
+
+/* cabeçalho */
+header {
+    background-color: #2b6cb0;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* área principal */
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* card principal */
+.apresentacao {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+
+/* imagem */
+.apresentacao img {
+    width: 150px;       /* largura fixa */
+    height: 200px;      /* altura fixa (proporção 3x4) */
+    object-fit: cover;  /* evita deformação da imagem */
+    border-radius: 8px; /* cantos levemente arredondados */
+    margin-bottom: 15px;
+}
+
+/* título */
+.apresentacao h2 {
+    margin-bottom: 10px;
+}
+
+/* texto da apresentação */
+.apresentacao p {
+    margin-bottom: 15px;
+}
+
+/* botões */
+button {
+    background-color: #2b6cb0;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* efeito ao passar o mouse */
+button:hover {
+    background-color: #1e4e8c;
+    transform: scale(1.05);
+}
+
+/* mensagem mostrada pelo js */
+#mensagem {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #1e4e8c;
+}
+
+/* seção de informações */
+.informacoes {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* subtítulos */
+.informacoes h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #2b6cb0;
+}
+
+/* lista */
+.informacoes ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* rodapé */
+footer {
+    text-align: center;
+    background-color: #2b6cb0;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
